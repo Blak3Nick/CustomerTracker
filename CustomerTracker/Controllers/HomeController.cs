@@ -13,14 +13,14 @@ namespace CustomerTracker.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Add()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult List()
         {
             ViewBag.Message = "Your contact page.";
 
